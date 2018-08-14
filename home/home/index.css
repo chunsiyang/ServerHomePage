@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+table{
+    table-layout : fixed;
+    text-align: center;
+    margin: auto;
+}
+#main{
+    width: 80%;
+}
+.item{
+    width: 60%;
+}
+img{
+    width: 100%;
+    width: 100%;
+    border-color: white;
+}
+a{
+    text-decoration:none;
+}
+p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+.info:hover{
+    cursor:hand;
+}
+.textinfo{
+    text-align: left;
+}
+.dialog{
+    height: 360px;  
+    width: 360px;
+    opacity: 0.5;
+}
