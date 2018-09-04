@@ -167,4 +167,22 @@ $(function() {
     $( "#yyetsinfo" ).click(function() {
         $( "#yyetsdialog" ).dialog( "open" );
     });
+
+    $( "#tautullidialog" ).dialog({
+        height: 500,
+        width: 500,
+        modal: true,
+        autoOpen:false,
+        buttons: {
+            "打开": function() {
+                window.location.href='http://chunsiyang.myddns.me:8181';
+            },
+            "关闭": function() {
+                $(this).dialog('close');
+            }
+        }
+    });
+    $( "#tautulliInfo" ).click(function() {
+        $( "#tautullidialog" ).dialog( "open" );
+    });
   });
